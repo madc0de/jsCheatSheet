@@ -27,3 +27,36 @@
 23. ```.toUpperCase() // Converts a string to uppercase letters```
 24. ```.trim() // Removes whitespace from both ends of a string```
 25. ```.valueOf() // Returns the primitive value of a String object```
+
+## Array
+
+1. ```.concat(arr1,[...]) // Joins two or more arrays, and returns a copy of the joined arrays```
+2. ```.copyWithin(target,[start],[end]) // Copies array elements within the array, to and from specified positions```
+3. ```.entries() // Returns a key/value pair Array Iteration Object```
+4. ```.every(function(currentval,[index],[arr]),[thisVal]) // Checks if every element in an array pass a test```
+5. ```.fill(val,[start],[end]) // Fill the elements in an array with a static value```
+6. ```.filter(function(currentval,[index],[arr]),[thisVal]) //	Creates a new array with every element in an array that pass a test```
+7. ```.find(function(currentval,[index],[arr]),[thisVal]) // Returns the value of the first element in an array that pass a test```
+8. ```.findIndex(function(currentval,[index],[arr]),[thisVal]) // Returns the index of the first element in an array that pass a test```
+9. ```.forEach(function(currentval,[index],[arr]),[thisVal]) // Calls a function for each array element```
+10. ```.from(obj,[mapFunc],[thisVal]) // Creates an array from an object```
+11. ```.includes(element,[start]) // Check if an array contains the specified element```
+12. ```.indexOf(element,[start]) // Search the array for an element and returns its position```
+13. ```.isArray(obj) // Checks whether an object is an array```
+14. ```.join([seperator]) // Joins all elements of an array into a string```
+15. ```.keys() // Returns a Array Iteration Object, containing the keys of the original array```
+16. ```.lastIndexOf(element,[start]) // Search the array for an element, starting at the end, and returns its position```
+17. ```.map(function(currentval,[index],[arr]),[thisVal]) // Creates a new array with the result of calling a function for each array element```
+18. ```.pop() // Removes the last element of an array, and returns that element```
+19. ```.push(item1,[...]) // Adds new elements to the end of an array, and returns the new length```
+20. ```.reduce(function(total,currentval,[index],[arr]),[initVal]) // Reduce the values of an array to a single value (going left-to-right)```
+21. ```.reduceRight(function(total,currentval,[index],[arr]),[initVal]) // Reduce the values of an array to a single value (going right-to-left)```
+22. ```.reverse() // Reverses the order of the elements in an array```
+23. ```.shift() // Removes the first element of an array, and returns that element```
+24. ```.slice([start],[end]) // Selects a part of an array, and returns the new array```
+25. ```.some(function(currentval,[index],[arr]),[thisVal]) // Checks if any of the elements in an array pass a test```
+26. ```.sort([compareFunc]) // Sorts the elements of an array```
+27. ```.splice(index,[quantity],[item1,...]) // Adds/Removes elements from an array```
+28. ```.toString() // Converts an array to a string, and returns the result```
+29. ```.unshift(item1,...) // Adds new elements to the beginning of an array, and returns the new length```
+30. ```.valueOf() // Returns the primitive value of an array```
